@@ -14,15 +14,33 @@
 
 <body>
 
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+  <nav class="navbar navbar-light bg-dark">
+    <a href="/" class="navbar-branding">
+      <img src="/images/guia.png">
+    </a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card" id="formulario-pergunta">
+      <div class="card-header">
+        <h3>Realizar pergunta</h3>
+      </div>
+
+      <div class="card-body">
+        <form action="">
+          <label for="titulo">Título</label>
+          <input type="text" placeholder="Título" class="form-control" id="titulo">
+          <br>
+          <label for="descricao">Descrição</label>
+          <textarea placeholder="Descreva sua pergunta aqui" class="form-control" id="descricao"></textarea>
+          <br>
+          <button class="btn btn-primary">Perguntar</button>
+        </form>
+
+      </div>
     </div>
   </div>
-
 
 
   <!-- BOOTSTRAP -->
